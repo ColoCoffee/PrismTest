@@ -1,9 +1,3 @@
-/PrismTest/bin/Debug/net8.0-windows/Microsoft.Extensions.DependencyInjection.Abstractions.dll
-/PrismTest/bin/Debug/net8.0-windows/Prism.Container.Abstractions.dll
-/PrismTest/bin/Debug/net8.0-windows/Prism.dll
-/PrismTest/bin/Debug/net8.0-windows/Prism.Events.dll
-/PrismTest/bin/Debug/net8.0-windows/PrismTest.deps.json
-/PrismTest/bin/Debug/net8.0-windows/PrismTest.dll
-/PrismTest/bin/Debug/net8.0-windows/PrismTest.exe
-/PrismTest/bin/Debug/net8.0-windows/PrismTest.pdb
-/PrismTest/bin/Debug/net8.0-windows/PrismTest.runtimeconfig.json
+*/bin
+*/.idea
+*/obj
