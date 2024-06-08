@@ -1,0 +1,26 @@
+<Window
+    Height="450"
+    Title="StartWindow"
+    Width="800"
+    mc:Ignorable="d"
+    x:Class="PrismTest.View.StartWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:PrismTest.View"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <!--  生成一个文本框和一个按钮  -->
+            <TextBox
+                Height="30"
+                Margin="10"
+                Text="{Binding InputText}"
+                Width="200" />
+            <Button
+                Command="{Binding Command}"
+                Height="50"
+                Width="50" />
+        </StackPanel>
+    </Grid>
+</Window>
